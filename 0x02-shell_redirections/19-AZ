@@ -1,3 +1,2 @@
 #!/bin/bash
-output_string = input("Enter a string: ").replace('A', 'z').replace('c', 'e') 
-print ("Modified string:", output_string)
+echo "Replace all characters 'A' and 'C' from input to 'Z' and 'e'" | ./19-AZ
